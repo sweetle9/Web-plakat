@@ -1,0 +1,20 @@
+  @import "reset.css";
+  @import "layout.css";
+  @font-face {
+  font-family: 'Gotham Pro Narrow Medium';
+  src: url('fonts/GothamProNarrow/GothamProNarrow-Medium.eot');
+  src: url('fonts/GothamProNarrow/GothamProNarrow-Medium.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamProNarrow/GothamProNarrow-Medium.woff') format('woff'),
+  url('fonts/GothamProNarrow/GothamProNarrow-Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
+  @font-face {
+  font-family: 'Gotham Pro Regular';
+  src: url('fonts/GothamProRegular/GothamPro.eot');
+  src: url('fonts/GothamProRegular/GothamPro.eot?#iefix') format('embedded-opentype'),
+  url('fonts/GothamProRegular/GothamPro.woff') format('woff'),
+  url('fonts/GothamProRegular/GothamPro.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  }
