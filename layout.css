@@ -1,3 +1,10 @@
+body {
+  width: 1680px;
+  height: 2385px;
+  margin: 0 auto;
+  background: white;
+  display: block;
+}
   h1 {font-family: Gotham Pro Narrow Medium; font-size: 190px;}
   h2 {font-family: Gotham Pro Regular; font-size: 30px;}
   h3,p {font-family: Gotham Pro Regular; font-size: 20px;}
