@@ -5,6 +5,6 @@ body {
   background: white;
   display: block;
 }
-  h1 {font-family: Gotham Pro Narrow Medium; font-size: 190px; color: white; vertical-align: top; text-align: center;}
-  h2 {font-family: Gotham Pro Regular; font-size: 30px; color: white; padding-left: 15px; padding-top: 15px;}
-  h3,p {font-family: Gotham Pro Regular; font-size: 20px; color: white; padding-left: 15px; line-height: 25px;}
+  h1 {font-family: Gotham Pro Narrow Medium; font-size: 190px; color: white; vertical-align: top; text-align: center; line-height: 318px;}
+  h2 {font-family: Gotham Pro Regular; font-size: 30px; color: white; padding-left: 15px; padding-top: 15px; vertical-align: top; text-align: left;}
+  h3,p {font-family: Gotham Pro Regular; font-size: 20px; color: white; padding-left: 15px; line-height: 25px; vertical-align: top; text-align: left;}
