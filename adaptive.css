@@ -1,29 +1,12 @@
     @media (max-width: 1680px) {
-      .grid img {
-        transform: scale(1);
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-      }
 
     }
     @media (max-width: 1440px) {
-      .grid img {
-        transform: scale(0.7);
-        text-align: center;
-        margin-left: auto;
 
-      }
     }
     @media (max-width: 1366px) {
-      .grid img {
-        transform: scale(0.6);
-        text-align: center;
-        margin-left: auto;
 
-      }
-    }
+    
     }
     @media (max-width: 1280px) {
 
