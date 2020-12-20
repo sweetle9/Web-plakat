@@ -1,9 +1,12 @@
 .grid {
   margin: 0px auto;
   padding: 0px 15px;
-  position: absolute;
+  position: relative;
 }
 .grid {
+  text-align: center;
+}
+.grid img {
   text-align: center;
 }
 .column_1 {
@@ -403,7 +406,6 @@
   margin-top: 37%;
   position: absolute;
   left: 29.7%;
-  z-index: 1;
 }
 .clown {
   margin-top: 20%;
