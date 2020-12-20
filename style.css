@@ -2,7 +2,6 @@
   @import "layout.css";
   @import "content.css";
   @import "adaptive.css";
-
   @font-face {
   font-family: 'Gotham Pro Narrow Medium';
   src: url('fonts/GothamProNarrow/GothamProNarrow-Medium.eot');
@@ -20,7 +19,4 @@
   url('fonts/GothamProRegular/GothamPro.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
-  }
-  .grid img {
-    max-width: 100%;
   }
