@@ -1,7 +1,8 @@
   @import "reset.css";
+  @import "layout.css";
   @import "content.css";
   @import "adaptive.css";
-  @import "layout.css";
+
   @font-face {
   font-family: 'Gotham Pro Narrow Medium';
   src: url('fonts/GothamProNarrow/GothamProNarrow-Medium.eot');
