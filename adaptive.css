@@ -1,7 +1,5 @@
     @media (max-width: 1680px) {
-      .grid img {
-        opacity: 0;
-      }
+
     }
     @media (max-width: 1440px) {
 
@@ -10,12 +8,109 @@
 
     }
     @media (max-width: 1280px) {
-
+      .grid h1 {
+        padding-top: 10%;
+      }
+      .sq1 {
+        width: 80%;
+      }
+      .sq2 {
+        width: 0%
+      }
     }
     @media (max-width: 1024px) {
-
+      .column_1 {
+        height: 22%;
+      }
+      .column_2 {
+        height: 40%;
+      }
+      .column_2_1 {
+        height: 40%;
+      }
+      .column_3 {
+        height: 25%;
+      }
+      .column_4 {
+        height: 40%;
+      }
+      .column_4_1 {
+        height: 40%;
+      }
+      .column_5 {
+        height: 40%;
+      }
+      .column_5_2 {
+        height: 40%;
+      }
+      .sq3 {
+        width: 0%;
+      }
+      .sq1 {
+        width: 100%;
+      }
+      .grid h1 {
+        padding-top: 7%;
+      }
+      .sq6 {
+        width: 0%;
+      }
+      .sq7 {
+        background-color: #662527;
+        width: 40%;
+      }
+      .sq5 {
+        width: 60%;
+      }
+      .nose {
+        margin-top: 24%;
+      }
+      .mouth {
+        margin-top: -42%;
+      }
+      .sq11 {
+        width: 0%;
+      }
+      .sq12 {
+        width: 40%;
+      }
+      .sq17 {
+        width: 0%;
+      }
+      .sq16 {
+        width: 100%;
+      }
+      .sq20 {
+        width: 0%;
+      }
+      .column_5 {
+        width: 100%;
+      }
+      .rainbow {
+        height: 80%;
+      }
+      .clown {
+        margin-top: 62%;
+      }
+      .clown {
+        margin-top: 62%;
+      }
+      .hair_left, .hair_right {
+        margin-top: 53%;
+      }
+      .clown_eye {
+        margin-top: 79%;
+      }
+      .eye_ball {
+        margin-top: 28%;
+      }
     }
     @media (max-width: 768px) {
-
+      .column_6 {
+        opacity: 1;
+      }
+      .column_5_2 {
+        width: 0%;
+      }
     }
     @media (max-width: 414px) {
