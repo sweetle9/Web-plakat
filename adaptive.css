@@ -1,8 +1,14 @@
     @media (max-width: 1680px) {
+      .column_5_mobile {
+        display: none;
+      }
       .column_1_mobile {
         display: none;
       }
       .column_2_mobile {
+        display: none;
+      }
+      .column_3_mobile {
         display: none;
       }
       .column_3_mobile {
@@ -10,10 +16,16 @@
       }
     }
     @media (max-width: 1440px) {
+      .column_5_mobile {
+        display: none;
+      }
       .column_1_mobile {
         display: none;
       }
       .column_2_mobile {
+        display: none;
+      }
+      .column_3_mobile {
         display: none;
       }
       .column_3_mobile {
@@ -21,6 +33,9 @@
       }
     }
     @media (max-width: 1366px) {
+      .column_5_mobile {
+        display: none;
+      }
       .column_1_mobile {
         display: none;
       }
@@ -30,8 +45,17 @@
       .column_3_mobile {
         display: none;
       }
+      .column_3_mobile {
+        display: none;
+      }
     }
     @media (max-width: 1280px) {
+      .column_5_mobile {
+        display: none;
+      }
+      .column_3_mobile {
+        display: none;
+      }
       .grid h1 {
         transform: scale(1.2);
       }
@@ -55,6 +79,12 @@
       }
     }
     @media (max-width: 1024px) {
+      .column_5_mobile {
+        display: none;
+      }
+      .column_3_mobile {
+        display: none;
+      }
       .column_3_mobile {
         display: none;
       }
@@ -302,7 +332,45 @@
     .grid h1 {
       transform: scale(1.2);
     }
+    .column_5_mobile {
+      display: inline-block;
+      width: 100%;
+      height: 35%;
+      vertical-align: top;
+    }
+    .sq12 {
+      width: 35%;
+      height: 50%;
+    }
+    .sq17 {
+      width: 65%;
+      height: 50%;
+    }
+    .sq19 {
+      width: 65%;
+      height: 50%;
+    }
+    .sq18 {
+      width: 35%;
+      height: 50%;
+      background-color: #0B3C49;
+    }
+    .hat {
+      width: 80%;
+      height: 80%;
+    }
+    .column_4_mobile {
+      display: inline-block;
+      width: 100%;
+      height: 25%;
+      vertical-align: top;
+    }
+    .sq10 {
+      width: 100%;
+      height: 100%;
+      background-color: #E46A3F;
   }
+    }
     @media (max-width: 320px) {
 
    }
