@@ -1,6 +1,9 @@
     .column_1_mobile {
       display: none;
     }
+    .column_2_mobile {
+      display: none;
+    }
     .grid {
       margin: 0% auto;
       padding: 0px 0.893vw;
