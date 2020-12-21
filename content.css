@@ -1,6 +1,6 @@
-    /* body {
-      max-width: 100%;
-    } */
+    .column_6 {
+      opacity: 0;
+    }
     .grid {
       margin: 0% auto;
       padding: 0px 0.893vw;
@@ -60,6 +60,12 @@
       display: inline-block;
       height: 35%;
       width: 20%;
+      vertical-align: top;
+    }
+    .column_6 {
+      display: inline-block;
+      height: 35%;
+      width: 100%;
       vertical-align: top;
     }
     .sq1 {
