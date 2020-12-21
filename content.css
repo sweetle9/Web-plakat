@@ -7,6 +7,12 @@
     .column_3_mobile {
       display: none;
     }
+    .column_4_mobile {
+      display: none;
+    }
+    .column_5_mobile {
+      display: none;
+    }
     .grid {
       margin: 0% auto;
       padding: 0px 0.893vw;
