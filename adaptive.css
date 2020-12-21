@@ -1,12 +1,23 @@
     @media (max-width: 1680px) {
+      .column_1_mobile {
+        display: none;
+      }
     }
     @media (max-width: 1440px) {
+      .column_1_mobile {
+        display: none;
+      }
 
     }
     @media (max-width: 1366px) {
-    
+      .column_1_mobile {
+        display: none;
+      }
     }
     @media (max-width: 1280px) {
+      .column_1_mobile {
+        display: none;
+      }
       .grid h1 {
         padding-top: 10%;
       }
@@ -18,6 +29,9 @@
       }
     }
     @media (max-width: 1024px) {
+      .column_1_mobile {
+        display: none;
+      }
       .column_1 {
         height: 22%;
       }
@@ -108,7 +122,18 @@
       }
     }
     @media (max-width: 768px) {
-
+    .column_2 {
+      display: none;
+    }
+    .column_3 {
+      display: none;
+    }
+    .column_4 {
+      display: none;
+    }
+    .column_1_mobile {
+      display: inline-block;
+    }
   }
     @media (max-width: 320px) {
 
