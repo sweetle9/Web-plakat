@@ -2,19 +2,30 @@
       .column_1_mobile {
         display: none;
       }
+      .column_2_mobile {
+        display: none;
+      }
     }
     @media (max-width: 1440px) {
       .column_1_mobile {
         display: none;
       }
-
+      .column_2_mobile {
+        display: none;
+      }
     }
     @media (max-width: 1366px) {
       .column_1_mobile {
         display: none;
       }
+      .column_2_mobile {
+        display: none;
+      }
     }
     @media (max-width: 1280px) {
+      .column_2_mobile {
+        display: none;
+      }
       .column_1_mobile {
         display: none;
       }
@@ -30,6 +41,9 @@
     }
     @media (max-width: 1024px) {
       .column_1_mobile {
+        display: none;
+      }
+      .column_2_mobile {
         display: none;
       }
       .column_1 {
@@ -131,8 +145,85 @@
     .column_4 {
       display: none;
     }
+    .column_5 {
+      display: none;
+    }
+    .column_4_1 {
+      display: none;
+    }
     .column_1_mobile {
       display: inline-block;
+      width: 50%;
+      height: 30%;
+      vertical-align: top;
+    }
+    .column_2_mobile {
+      display: inline-block;
+      width: 100%;
+      height: 100%;
+      vertical-align: top;
+    }
+    .sq2 {
+      width: 60%;
+      height: 30%;
+      background-color: #E46A3F;
+    }
+    .sq6 {
+      width: 40%;
+      height: 30%;
+    }
+    .sq9 {
+      width: 40%;
+      height: 20%;
+    }
+    .sq15 {
+      width: 60%;
+      height: 20%;
+      background-color: #0B3C49;
+    }
+    .fish {
+      width: 70%;
+      height: 70%;
+      margin-top: 18%
+    }
+    .tear_1 {
+      width: 40%;
+      height: 40%;
+      margin-top: 10%;
+      margin-left: -10%;
+    }
+    .tear_2 {
+      width: 40%;
+      height: 40%;
+      margin-top: 34%;
+      margin-left: -10%;
+    }
+    .ice_cream {
+      margin-top: 0%;
+    }
+    .tear_3 {
+      width: 40%;
+      height: 40%;
+      margin-top: 10%;
+      margin-left: -10%;
+    }
+    .column_2_1 {
+      width: 50%;
+      height: 30%;
+    }
+    .sq5 {
+    width: 100%;
+    }
+    .sq8 {
+    width: 100%;
+    }
+    .ribbon {
+      width: 70%;
+      height: 70%;
+    }
+    .bottle {
+      width: 70%;
+      height: 70%;
     }
   }
     @media (max-width: 320px) {
