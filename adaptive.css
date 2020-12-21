@@ -1,5 +1,4 @@
     @media (max-width: 1680px) {
-
     }
     @media (max-width: 1440px) {
 
@@ -106,11 +105,8 @@
       }
     }
     @media (max-width: 768px) {
-      .column_6 {
-        opacity: 1;
-      }
-      .column_5_2 {
-        width: 0%;
-      }
+
     }
-    @media (max-width: 414px) {
+    @media (max-width: 320px) {
+
+   }
