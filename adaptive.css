@@ -103,10 +103,13 @@
       .eye_ball {
         margin-top: 28%;
       }
+      .sq18 {
+        background-color: #E46A3F;
+      }
     }
     @media (max-width: 768px) {
 
-    }
+  }
     @media (max-width: 320px) {
 
    }
