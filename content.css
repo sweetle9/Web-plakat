@@ -13,6 +13,9 @@
     .column_5_mobile {
       display: none;
     }
+    .column_1_tablet {
+      display: none;
+    }
     .grid {
       margin: 0% auto;
       padding: 0px 0.893vw;
