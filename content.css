@@ -2,7 +2,7 @@
       max-width: 100%;
     }
     .grid {
-      margin: 0px auto;
+      margin: 0% auto;
       padding: 0px 0.893vw;
       position: relative;
       width: 100%;
@@ -184,7 +184,7 @@
     }
     .sq16 {
       width: 50%;
-      height: 40%;
+      height: 41%;
       position: relative;
       display: inline-block;
       background-color: #0B3C49;
