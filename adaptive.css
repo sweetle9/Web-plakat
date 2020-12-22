@@ -103,6 +103,10 @@
       }
     }
     @media (max-width: 1024px) {
+      .container_3 {
+        margin: -59% 6%;
+        background-color: #166A81;
+      }
       .container_2 {
         margin: -151% 6%;
       }
@@ -290,6 +294,13 @@
       }
     .container_2 {
       margin: -72% 6%;
+    }
+    .container_3 {
+      margin: -35% 6%;
+      background-color: #166A81;
+    }
+    .container_3 p {
+      padding-top: 1%;
     }
     .column_1_tablet {
       display: none;
