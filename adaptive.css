@@ -301,12 +301,45 @@
     .grid {
       max-width: 100%;
       }
+    .grid h1 {
+      font-size: 15vw;
+    }
+    .grid h2 {
+      font-size: 3vw;
+    }
+    .grid h3 {
+      font-size: 2.2vw;
+    }
+    .grid p {
+      font-size: 2.2vw;
+      padding-top: 0%;
+      line-height: 2.488vw;
+    }
+    .line_2 {
+      margin-top: -8%;
+    }
+    .line_1 {
+      margin-top: -8%;
+    }
+    .line_3 {
+        width: 50%;
+        border-top: 0.417vw solid white;
+        text-align: center;
+        position: absolute;
+        margin-top: -1%;
+        margin-left: 23%;
+        box-sizing: border-box;
+      }
     .container_2 {
       margin: -72% 6%;
     }
     .container_3 {
       margin: -35% 6%;
       background-color: #166A81;
+      padding: 4% 0%;
+    }
+    .container_3 p {
+      padding-top: -10%;
     }
     .container_1 {
       margin: -52% 6%;
