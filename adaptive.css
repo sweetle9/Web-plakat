@@ -140,19 +140,19 @@
       .ball_1 {
         width: 80%;
         height: 80%;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: -70%;
       }
       .ball_2 {
         width: 80%;
         height: 80%;
-        margin-top: 0%;
+        margin-top: -1%;
         margin-left: -41%;
       }
       .ball_3 {
         width: 80%;
         height: 80%;
-        margin-top: 5%;
+        margin-top: 7%;
         margin-left: -11%;
       }
       .grid h1 {
@@ -390,6 +390,7 @@
     .rainbow {
       width: 78%;
       height: 78%;
+      margin-top: 23%;
     }
     .clown {
       width: 80%;
@@ -427,6 +428,7 @@
     .sq12 {
       width: 35%;
       height: 50%;
+      background-color: #662527;
     }
     .sq17 {
       width: 65%;
@@ -441,9 +443,15 @@
       height: 50%;
       background-color: #0B3C49;
     }
+    .left_hand, .right_hand {
+      width: 80%;
+      height: 80%;
+      margin-top: 8%
+    }
     .hat {
       width: 80%;
       height: 80%;
+      margin-top: 8%;
     }
     .column_4_mobile {
       display: inline-block;
@@ -456,6 +464,9 @@
       height: 100%;
       background-color: #E46A3F;
   }
+    .sq21 {
+      background-color: #0B3C49;
+    }
     }
     @media (max-width: 320px) {
       .column_1_tablet {
