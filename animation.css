@@ -204,3 +204,13 @@
     .menu_22 {
       animation-delay: -0.1s;
     }
+    .sq5:hover .ribbon {
+      animation: hithere 1s ease infinite;
+    }
+    @keyframes hithere {
+    30% {transform: scale(0.6);}
+    40%, 60% {transform: rotate(-20deg) scale(1.1);}
+    50% {transform: rotate(20deg) scale(1.1);}
+    70% {transform: rotate(0deg) scale(1.1);}
+    100% {transform: scale(1);}
+  }
