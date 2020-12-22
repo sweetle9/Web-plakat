@@ -213,36 +213,53 @@
     50% {transform: rotate(20deg) scale(1.1);}
     70% {transform: rotate(0deg) scale(1.1);}
     100% {transform: scale(1);}
-  }
+    }
   .sq7:hover .nose {
     animation: grow 2s ease infinite;
-  }
-  @keyframes grow {
+    }
+    @keyframes grow {
     from {transform: scale(0);}
     to {transform: scale(1.4);}
-  }
+    }
   .sq7:hover .mouth {
   animation: shake 2s ease infinite;
-  }
-  @keyframes shake {
+    }
+    @keyframes shake {
   	0%, 90% {transform: translateY(0); transform: rotate(0deg);}
   	10% {transform: translateY(-10px); transform: rotate(-180deg);}
   	50% {transform: translateY(10px); transform: rotate(180deg);}
-  }
+    }
   .sq9:hover .tear_1 {
     animation: teardrop 0.5s ease-in infinite;
     animation-delay: 0.3s;
-  }
+    }
   .sq9:hover .tear_2 {
     animation: teardrop 0.5s ease-in infinite;
     animation-delay: 0.2s;
 
-  }
+    }
   .sq9:hover .tear_3 {
     animation: teardrop 0.5s ease-in infinite;
     animation-delay: 0.1s;
-  }
-  @keyframes teardrop {
+    }
+    @keyframes teardrop {
     0% {opacity: 1; top: -100%;}
     100% {opacity: 1; top: 130%; transform: scale(2);}
-  }
+    }
+  .sq18:hover .button {
+      animation: gelatine 1s infinite;
+    }
+    @keyframes gelatine {
+    from, to { transform: scale(1, 1);}
+    25% {transform: scale(0.8, 1.2);}
+    50% {transform: scale(1.2, 0.8);}
+    75% {transform: scale(0.95, 1.05);}
+    }
+  .sq14:hover .eye_ball {
+      animation: elastic-spin 1s infinite ease;
+    }
+    @keyframes elastic-spin {
+    0% {transform: rotate(0deg);}
+    50% {transform: rotate(-720deg); filter: drop-shadow(0 0 1vw #F7F5F0;}
+    100% {transform: rotate(720deg);}
+    }
