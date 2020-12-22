@@ -1,3 +1,4 @@
+
     .column_1_mobile {
       display: none;
     }
@@ -16,8 +17,18 @@
     .column_1_tablet {
       display: none;
     }
+    body {
+      .grid {
+        margin: 0% 0%;
+        padding: 0px 0.893vw;
+        position: relative;
+        width: 100%;
+        height: 142vw;
+        overflow-x: hidden;
+      }
+    }
     .grid {
-      margin: 0% auto;
+      margin: 0% 0%;
       padding: 0px 0.893vw;
       position: relative;
       width: 100%;
