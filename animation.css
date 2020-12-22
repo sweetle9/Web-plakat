@@ -263,3 +263,12 @@
     50% {transform: rotate(-720deg); filter: drop-shadow(0 0 1vw #F7F5F0);}
     100% {transform: rotate(720deg);}
     }
+    .sq11:hover .ballon {
+      animation: bye-bye 4s ease-in-out infinite;
+      z-index: 1;
+
+    }
+    @keyframes bye-bye {
+      0% {transform: scale(1); top: 0%; right: 3%;}
+      50% {transform: scale(1.5); top: -100%; right: 60%;}
+      100% {transform: scale(2.5); top: -500%; right: 110%;}
