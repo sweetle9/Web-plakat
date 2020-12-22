@@ -1,4 +1,6 @@
-
+    .grid h1, h2 {
+      line-height: 120%;
+    }
     .column_1_mobile {
       display: none;
     }
