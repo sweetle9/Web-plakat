@@ -168,6 +168,7 @@
       display: inline-block;
       background-color: #A22A2F;
       vertical-align: top;
+      overflow: hidden;
     }
     .sq10 {
       width: 60%;
@@ -472,7 +473,7 @@
       width: 30%;
       height: 30%;
       margin-top: 50%;
-      left: 40%;
+      left: 36%;
       position: absolute;
     }
     .tear_3 {
@@ -480,7 +481,7 @@
       height: 30%;
       margin-top: 20%;
       position: absolute;
-      left: 15%;
+      left: 5%;
     }
     .ball_1 {
       width: 60%;
