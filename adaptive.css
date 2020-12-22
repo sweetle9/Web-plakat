@@ -334,7 +334,7 @@
         border-top: 0.417vw solid white;
         text-align: center;
         position: absolute;
-        margin-top: -1%;
+        margin-top: 0%;
         margin-left: 23%;
         box-sizing: border-box;
       }
@@ -343,12 +343,10 @@
       height: 63%;
     }
     .container_3 {
-      margin: -36% 6%;
+      margin: -32% 6%;
       background-color: #166A81;
       padding: 4% 0%;
-    }
-    .container_3 p {
-      padding-top: -10%;
+      height: 62%;
     }
     .container_1 {
       margin: -54% 6%;
@@ -356,7 +354,8 @@
       height: 65%
     }
     .container_3 p {
-      padding-top: 1%;
+      padding-top: 4%;
+      font-size: 2.1vw;
     }
     .column_1_tablet {
       display: none;
