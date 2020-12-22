@@ -103,6 +103,9 @@
       }
     }
     @media (max-width: 1024px) {
+      .container_2 {
+        margin: -151% 6%;
+      }
       .grid {
         max-width: 100%;
       }
@@ -282,11 +285,14 @@
       }
     }
     @media (max-width: 768px) {
-      .grid {
-        max-width: 100%;
+    .grid {
+      max-width: 100%;
       }
+    .container_2 {
+      margin: -72% 6%;
+    }
     .column_1_tablet {
-        display: none;
+      display: none;
       }
     .column_2 {
       display: none;
