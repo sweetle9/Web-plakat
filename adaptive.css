@@ -309,6 +309,10 @@
     .grid {
       max-width: 100%;
       }
+    .ballon {
+      margin-left: -46%;
+      margin-top: 10%;
+    }
     .grid h1 {
       font-size: 15vw;
     }
