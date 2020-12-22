@@ -231,11 +231,11 @@
     }
   .sq9:hover .tear_1 {
     animation: teardrop 0.5s ease-in infinite;
-    animation-delay: 0.3s;
+    animation-delay: -0.3s;
     }
   .sq9:hover .tear_2 {
     animation: teardrop 0.5s ease-in infinite;
-    animation-delay: 0.2s;
+    animation-delay: -0.1s;
 
     }
   .sq9:hover .tear_3 {
@@ -260,6 +260,6 @@
     }
     @keyframes elastic-spin {
     0% {transform: rotate(0deg);}
-    50% {transform: rotate(-720deg); filter: drop-shadow(0 0 1vw #F7F5F0;}
+    50% {transform: rotate(-720deg); filter: drop-shadow(0 0 1vw #F7F5F0);}
     100% {transform: rotate(720deg);}
     }
