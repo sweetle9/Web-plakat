@@ -97,3 +97,36 @@
     opacity: 1;
     transition: 0.7s ease-in-out;
   }
+  .container_4 {
+    opacity: 0;
+    width: 88%;
+    height: 79%;
+    background: #166A81;
+    padding: 43% 2%;
+    margin: -228% 6%;
+    box-sizing: border-box;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+  }
+  .container_4 p {
+    padding-top: 40%;
+    padding-left: 1%;
+    width: 96%;
+  }
+  .line_4 {
+    width: 50%;
+    border-top: 0.417vw solid white;
+    text-align: center;
+    position: absolute;
+    margin-top: -8%;
+    margin-left: 22%;
+    box-sizing: border-box;
+  }
+  .sq20:hover .сocktail {
+    opacity: 0;
+  }
+  .sq20:hover .container_4 {
+    opacity: 1;
+    transition: 0.7s ease-in-out;
+  }
