@@ -107,6 +107,13 @@
       }
     }
     @media (max-width: 1024px) {
+      .hands_festival_sprite {
+       transform: scale(1.1);
+     }
+      .box_hands_festival_sprite {
+          margin-left: 0%;
+          margin-top: -8.5%;
+      }
       .box_hat_sprite_1 {
           margin-left: 26%;
           margin-top: 3%;
