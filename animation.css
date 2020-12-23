@@ -264,6 +264,7 @@
     100% {transform: rotate(720deg);}
     }
     .sq11:hover .ballon {
+      animation-play-state: running;
       animation: bye-bye 4s ease-in-out infinite;
       z-index: 1;
       opacity: 0.9;
@@ -273,34 +274,34 @@
       50% {transform: scale(1.5); top: -100%; right: 60%;}
       100% {transform: scale(2.5); top: -500%; right: 110%;}
     }
-    .div_hat_sprite_1 {
-    width: 29.09vw;
-    height: 14.583vw;
-    position: relative;
-    margin-top: -23%;
-    margin-left: 31.3%;
-    }
-    .hat_sprite_1 {
+    .sq17:hover .hat{
+        opacity: 0;
+      }
+      .div_hat_sprite_1 {
       width: 29.09vw;
       height: 14.583vw;
-      margin-top: -23%;
-      margin-left: 54.3%;
+      position: relative;
+      top: -32%;
+      left: 54.3%;
+      }
+     .hat_sprite_1 {
+      opacity: 0;
+      width: 29.09vw;
+      height: 14.583vw;
       transform: scale(1.08);
       display: block;
       position: absolute;
       background: url("images/Sprite_K_1.svg");
-      background-position: 100% auto;
+      background-size: auto 100%;
     }
-    .sq17:hover .hat {
-        opacity: 0;
-      }
-    .hat_sprite_1:hover {
-        animation: hat_color 1s steps(1) infinite;
+     .sq17:hover .hat_sprite_1 {
+      animation-play-state: running;
+      animation: hat_color 1s steps(1) infinite;
       }
       @keyframes hat_color {
-        0% {background-position: 0 top; opacity: 0;}
-        1% {background-position: 0 top; opacity: 1;}
-        25% {background-position: -29.074vw 0;}
-        50% {background-position: -58.148vw 0;}
-        75% {background-position: -87.222vw 0;}
+      0% {background-position: 0 top; opacity: 0;}
+      1% {background-position: 0 top; opacity: 1;}
+      25% {background-position: -29.074vw 0;}
+      50% {background-position: -58.148vw 0;}
+      75% {background-position: -87.222vw 0;}
     }
