@@ -305,8 +305,8 @@
     .box_hands_festival_sprite {
         width: 90%;
         height: 90%;
-        margin-left: 9%;
-        margin-top: 12%;
+        margin-left: -16%;
+        margin-top: -13%;
         position: relative;
       }
      .hands_festival_sprite {
@@ -319,3 +319,13 @@
       background-size: auto 100%;
       animation-play-state: paused;
     }
+    .sq17:hover .hat_sprite_1 {
+     animation-play-state: running;
+     animation: clown_festival 1s steps(1) infinite;
+     }
+      @keyframes clown_festival {
+      0% {background-position: 0 top; opacity: 0;}
+      1% {background-position: 0 top; opacity: 1;}
+      25% {background-position: -29.074vw 0;}
+      50% {background-position: -58.148vw 0;}
+      75% {background-position: -87.222vw 0;}
