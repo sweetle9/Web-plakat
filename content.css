@@ -202,6 +202,7 @@
       display: inline-block;
       vertical-align: top;
       background-color: #A22A2F;
+      overflow: hidden;
     }
     .sq14 {
       width: 43%;
@@ -514,18 +515,18 @@
       position: absolute;
     }
     .clown_eye {
-      width: 27%;
-      height: 27%;
+      width: 29%;
+      height: 29%;
       margin-top: 54%;
       position: absolute;
-      left: 34.7%;
+      left: 28.7%;
     }
     .clown {
       width: 80%;
       height: 80%;
       margin-top: 45%;
       position: absolute;
-      left: 0%;
+      left: -5%;
     }
     .hair_left {
       width: 50%;
@@ -539,7 +540,7 @@
       height: 50%;
       margin-top: 25%;
       position: absolute;
-      left: 45%;
+      left: 37%;
     }
     .eye_tear {
       width: 80%;
