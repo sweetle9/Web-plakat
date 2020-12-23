@@ -266,6 +266,7 @@
       display: inline-block;
       vertical-align: top;
       background-color: #E46A3F;
+      overflow: hidden;
     }
     .sq20 {
       width: 100%;
