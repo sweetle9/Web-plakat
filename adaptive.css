@@ -548,6 +548,7 @@
       height: 25%;
       margin-top: 30%;
       margin-left: -1%;
+      animation-play-state: paused;
     }
     .grid h1 {
       transform: scale(1.2);
