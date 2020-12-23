@@ -249,6 +249,7 @@
       display: inline-block;
       background-color: #662527;
       vertical-align: top;
+      overflow: hidden;
     }
     .sq21 {
       width: 50%;
