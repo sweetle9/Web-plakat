@@ -390,11 +390,14 @@
       100% {transform: translateY(200%);}
     }
       .sq13:hover .clown_eye {
-        animation: blink_eye 1s infinite;
+        animation-play-state: running;
+        animation: blink_eye 1.2s infinite;
       }
       @keyframes blink_eye {
       0% {opacity: 1;}
-      70% {opacity: 0;}
+      45% {opacity: 1;}
+      50% {opacity: 0;}
+      90% {opacity: -1;}
   }
     .sq13:hover .hair_right {
       animation: hair_right_rot 1.2s ease-out infinite;
@@ -411,4 +414,20 @@
       0% {transform: rotate(0deg);}
       80% {transform: rotate(15deg);}
       100% {transform: rotate(0deg);}
+    }
+    .blink_eyes {
+      width: 29%;
+      height: 29%;
+      margin-top: 55%;
+      margin-left: -13%;
+      position: relative;
+      opacity: 0;
+    }
+    .sq13:hover .blink_eyes {
+      animation: blink_eyes 1.2s infinite;
+    }
+      @keyframes blink_eyes {
+      0% {opacity: 0;}
+      50% {opacity: 0;}
+      100% {opacity: 1;}
     }
