@@ -274,28 +274,24 @@
       50% {transform: scale(1.5); top: -100%; right: 60%;}
       100% {transform: scale(2.5); top: -500%; right: 110%;}
     }
-     .sq17:hover .hat{
-        opacity: 0;
       }
-      .div_hat_sprite_1 {
-      width: 29.09vw;
-      height: 14.583vw;
-      position: relative;
-      top: -32%;
-      left: 54.3%;
+    .div_hat_sprite_1 {
+        width: 90%;
+        height: 90%;
+        margin-top: 8%;
+        position: relative;
       }
      .hat_sprite_1 {
-      opacity: 1;
       width: 29.09vw;
       height: 14.583vw;
       transform: scale(1.08);
       display: block;
-      position: absolute;
+      position: relative;
       background: url("images/Sprite_K_1.svg");
       background-size: auto 100%;
       animation-play-state: paused;
     }
-     .sq17:hover ~ .hat_sprite_1 {
+     .sq17:hover .hat_sprite_1 {
       animation-play-state: running;
       animation: hat_color 1s steps(1) infinite;
       }
