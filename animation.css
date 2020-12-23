@@ -283,7 +283,7 @@
       }
      .hat_sprite_1 {
       width: 29vw;
-      height: 14.588vw;
+      height: 14.591vw;
       transform: scale(1.08);
       display: block;
       position: absolute;
@@ -301,4 +301,21 @@
       25% {background-position: -29.074vw 0;}
       50% {background-position: -58.148vw 0;}
       75% {background-position: -87.222vw 0;}
+    }
+    .box_hands_festival_sprite {
+        width: 90%;
+        height: 90%;
+        margin-left: 9%;
+        margin-top: 12%;
+        position: relative;
+      }
+     .hands_festival_sprite {
+      width: 64.107vw;
+      height: 23.988vw;
+      /* transform: scale(1.08); */
+      display: block;
+      position: absolute;
+      background: url("images/Sprite_Hands_Fetsival.svg");
+      background-size: auto 100%;
+      animation-play-state: paused;
     }
