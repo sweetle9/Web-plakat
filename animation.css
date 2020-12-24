@@ -441,7 +441,7 @@
       animation: bouncing_ball 0.9s ease-in -0.5s alternate infinite;
     }
     @keyframes bouncing_ball {
-    0% {transform: translateY(0%) rotate(0deg); filter: drop-shadow(16vw 10vw 8vw orange);}
-    50% {transform: translateY(-150%) rotate(-360deg); filter: drop-shadow(16vw 10vw 8vw violet);}
-    100% {transform: translateY(150%) rotate(360deg); filter: drop-shadow(1vw 10vw 8vw orange);}
+    0% {transform: translateY(0%) rotate(0deg); filter: drop-shadow(16vw 10vw 12vw orange);}
+    50% {transform: translateY(-150%) rotate(-360deg); filter: drop-shadow(16vw 10vw 12vw black);}
+    100% {transform: translateY(150%) rotate(360deg); filter: drop-shadow(1vw 10vw 12vw orange);}
   }
