@@ -431,3 +431,20 @@
       50% {opacity: 0;}
       100% {opacity: 1;}
     }
+    .sq10:hover .ball_1 {
+      animation: bouncing_ball 0.9s ease-in -0.1s alternate infinite;
+    }
+    .sq10:hover .ball_2 {
+      animation: bouncing_ball 0.9s ease-in -0.3s alternate infinite;
+    }
+    .sq10:hover .ball_3 {
+      animation: bouncing_ball 0.9s ease-in -0.5s alternate infinite;
+    }
+    @keyframes bouncing_ball {
+    0% {transform: translateY(0%) rotate(0deg);;}
+    50% {transform: translateY(-150%) rotate(-360deg);}
+    100% {transform: translateY(150%) rotate(360deg);}
+  }
+    @keyframes bouncing_ball_2 {
+
+  }
