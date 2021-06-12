@@ -1,6 +1,9 @@
     .grid h1, h2 {
       line-height: 120%;
     }
+    body {
+      overflow: hidden;
+    }
     .column_1_mobile {
       display: none;
     }
